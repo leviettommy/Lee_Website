@@ -1,0 +1,97 @@
+/* Globale Einstellungen für die Schriftart und den Seitenhintergrund */
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url('background.png'); /* Das geforderte "neue" Background-Property */
+    background-repeat: repeat;
+    color: #333333;
+    margin: 0;
+    padding: 40px 0;
+}
+
+/* Die graue Inhaltsbox im Zentrum der Website */
+.container {
+    background-color: #b5b5b5; /* Grauer Hintergrund der Website */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+/* Überschriften-Styling */
+h1 {
+    font-size: 24px;
+    margin-top: 0;
+    color: #111;
+}
+
+h2 {
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border-bottom: unset; /* Keine störenden Linien */
+}
+
+/* Textformatierung */
+p {
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+/* Porträtbild auf der rechten Seite */
+.profile-pic {
+    float: right;
+    width: 180px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px; /* Abgerundete Ecken wie im Screenshot */
+}
+
+/* Listen-Spezifikationen für die "Quick Facts" */
+.main-list {
+    list-style-type: circle; /* Offene Kreise für die Hauptliste */
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+.sub-list {
+    list-style-type: square; /* Quadrate für die verschachtelte Liste */
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+/* Tabellen-Styling */
+table {
+    width: 45%;
+    border-collapse: collapse; /* Linien miteinander verschmelzen lassen */
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+th, td {
+    border: 1px solid #333333;
+    padding: 4px 8px;
+    text-align: left;
+}
+
+th {
+    background-color: transparent;
+    font-weight: bold;
+}
+
+/* Link-Styling & Die "Visited"-Anforderung */
+a {
+    color: #0000ee;
+    text-decoration: underline;
+}
+
+/* Trick für den CERN-Link: Wenn er besucht wurde, färbt er sich grün */
+a:visited {
+    color: green;
+}
+
+/* Fußzeile am Ende der Seite */
+.footer {
+    font-size: 12px;
+    margin-top: 40px;
+}
